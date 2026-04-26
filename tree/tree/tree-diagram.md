@@ -1,0 +1,17 @@
+```mermaid
+graph TD
+START-->Q1
+Q1-->D1
+D1-->Q2A
+D1-->Q2B
+Q2A-->R1
+Q2B-->R2
+R1-->A2Q1
+R2-->A2Q1
+A2Q1-->A2Q2
+A2Q2-->A2R
+A2R-->A3Q1
+A3Q1-->A3Q2
+A3Q2-->SUM
+SUM-->END
+```
